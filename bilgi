@@ -1,0 +1,11 @@
+body {
+  margin: 0; ----?
+  padding: 0 3%; ----sayfanın sağdan ve soldan ne kadar boşluk bırakacağını belirler, sağ ve sol tarafta %3 boşluk var, fakat al ve üstte yok.
+  font-family: "Mulish", sans-serif; ----- mulish bir tür modern yazı tipidir eğer kod bloklarında yazılı veya indirili değilse sans-serif yedek görevi görerek başka bir yazı tipi atar.
+  font-weight: 400; ---- bu harflerin genişliğini belirler, 100-800 qarasında değişir, 100 en ince;800 en kalın olan yazı tipidir.
+  font-size: 16px;--- yazının boyutlarını büyütüp küçültür.
+  line-height: 20px;----?
+  letter-spacing: 0.2em; ---- harflerin arasındaki boşluğu belirler. Sayı ne kadar artarsa boşlukta aynı oranda artar.
+  background: linear-gradient(180deg, #A4D927 0%, rgba(227, 182, 5, 0.8) 100%); ----Bu kod sayesinde sayfanın başından sonuna doğru renk geçişleri olur. Örneğin sayfanın başındaki yeşil rengi açılarak sayfadan aşağı sarıya döner.
+  color: #ffffff;---- yazının rengini belirler.
+}
